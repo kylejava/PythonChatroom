@@ -15,4 +15,4 @@ while True:
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S")
     m = ("(" + current_time +") " + "From " + name + ": " + message)
-    user1.sendto(m.encode(), (serverName,10001))
+    user1.sendto(m.encode(), (serverName,20000))
